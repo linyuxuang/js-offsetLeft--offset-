@@ -1,5 +1,21 @@
 # js-offsetLeft--offset-
 offsetLeft  与 offset
+ 
+       查看元素尺寸 
+      dom.offsetWidth 
+      dom.offsetHeight
+
+      查看元素的位置
+      对于无定位父级元素，返回相对文档的坐标，对于
+      有定位父级的元素，返回相对于最近定位的父级元素坐标
+      dom .offsetLeft 
+      dom.offsetTop 
+ 
+      返回最近有定位的父级，如果没有：返回body，body.offsetParent   
+      dom.offsetParent
+      
+
+      
 
 
        offsetLeft : 
